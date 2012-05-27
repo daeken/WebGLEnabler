@@ -1,9 +1,9 @@
 Package: com.daeken.webglenabler
 Name: webglenabler
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Enables WebGL
 Maintainer: Cody Brocious (Daeken)
 Author: Cody Brocious (Daeken)
 Section: Tweaks

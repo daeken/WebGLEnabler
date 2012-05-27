@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>entry</key>
+   <dict>
+      <key>cell</key>
+         <string>PSLinkCell</string>
+         <key>icon</key>
+         <string>WebGLEnabler.png</string>
+         <key>label</key>
+         <string>WebGL</string>
+      </dict>
+      <key>items</key>
+      <array>
+         <dict>
+            <key>cell</key>
+            <string>PSSwitchCell</string>
+            <key>default</key>
+            <true/>
+            <key>defaults</key>
+            <string>com.daeken.webglenabler</string>
+            <key>key</key>
+            <string>enabled</string>
+            <key>label</key>
+            <string>Enabled for all applications</string>
+         </dict>
+         <dict>
+            <key>cell</key>
+            <string>PSTitleValueCell</string>
+            <key>label</key>
+            <string>Changes take effect after you restart applications using WebViews</string>
+         </dict>
+      </array>
+      <key>title</key>
+      <string>WebGL</string>
+   </dict>
+</plist>
